@@ -1,0 +1,16 @@
+[project]
+name = "government"
+version = "0.1.0"
+description = "Authentication provider for other government apps"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dj-database-url ~= 3.0",
+    "dj-email-url ~= 1.0",
+    "django ~= 5.2",
+    "django-allauth ~= 65.11",
+    "django-oauth-toolkit ~= 3.0",
+]
+
+[tool.setuptools]
+py-modules = []
